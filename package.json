@@ -1,5 +1,5 @@
 {
-  "name": "first_practic",
+  "name": "learning_project_3",
   "version": "1.0.0",
   "description": "learning project",
   "main": "index.js",
@@ -10,17 +10,21 @@
     "type": "git",
     "url": "git+https://github.com/ArtKovtsun/Learning-project.git"
   },
-  "author": "",
+  "author": "Artur",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ArtKovtsun/Learning-project/issues"
   },
   "homepage": "https://github.com/ArtKovtsun/Learning-project#readme",
   "devDependencies": {
+    "browser-sync": "^2.27.11",
     "cli": "^1.0.1",
     "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
     "gulp-cli": "^2.3.0",
-    "gulp-sass": "^5.1.0"
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.58.0"
   }
 }
-
