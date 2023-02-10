@@ -1,7 +1,7 @@
 .consultation {
     min-height: 680px;
     padding: 100px 0 108px 0;
-    background: url(../../img/consultation_bg.jpg) center (center/cover) no-repeat;
+    background: url(../img/consultation_bg.jpg) center (center/cover) no-repeat;
     &__title {
         font-weight: 700;
         font-size: 36px;
@@ -15,5 +15,15 @@
         font-size: 20px;
         line-height: 30px;
         color: #FFFFFF;
+    }
+    .error {
+        text-align: center;
+        border: 1px solid red;
+    }
+    label.error {
+        font-size: 13px;
+        color: #FFFFFF;
+        border: none;
+        margin-bottom: 15px;
     }
 }
