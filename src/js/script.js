@@ -5,7 +5,7 @@ $(document).ready(function(){
         nextArrow: '<button type="button" class="slick-next"><img src="icons/right_svg.svg"></button>',
         responsive: [
             {
-                breakpoint: 992,
+                breakpoint: 902,
                 settings: {
                   dots: true,
                   arrows: false
@@ -76,4 +76,14 @@ $(document).ready(function(){
     valideForms('#order form');
 
     $('input[name=phone]').mask("+3 8(999) 999-9999");
+
+    //Pageup
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 1400) {
+            $('.pageup').fadeIn();
+        } else {
+            $('.pageup').fadeOut();
+        }
+    });
+
 });
